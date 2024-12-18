@@ -67,14 +67,13 @@ Una vez que tengas el ejecutable listo, crea una carpeta dentro de ml-agents lla
 
 ## Paso 4: Entrenamiento del Agente
 
-Ya con el entorno listo y el conda activado, ejecutamos el siguiente comando para iniciar el proceso de entrenamiento (ejemplo con la configuración de SoccerTwos, que puedes adaptar a DungeonEscape):
+Ya con el entorno listo y el conda activado, ejecutamos el siguiente comando para iniciar el proceso de entrenamiento.
 
 ```bash
 mlagents-learn ./config/poca/DungeonEscape.yaml --env=./training-envs-executables/DungeonEscape/UnityEnvironment.exe --run-id="DungeonEscape" --no-graphics
 ```
 
 **Nota:**
-- En este ejemplo se muestra el archivo SoccerTwos.yaml y el ejecutable SoccerTwos.exe, pero deberás adaptar el comando al entorno Dungeon Escape y a su correspondiente archivo de configuración.
 - El entrenamiento puede tardar entre 7-8 horas, dependiendo de la complejidad del entorno y los recursos disponibles.
 
 ## Paso 5: Ejecutar el Entorno Localmente con el Modelo Entrenado
