@@ -15,7 +15,6 @@ Este proyecto describe los pasos iniciales para configurar y entrenar agentes de
 
 Primero, creamos un entorno virtual con Python 3.10.12 usando conda:
 
-```bash
 conda create --name rl python=3.10.12
 conda activate rl
 
