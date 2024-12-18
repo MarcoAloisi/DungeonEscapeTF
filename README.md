@@ -41,25 +41,20 @@ Paso 2: Instalar Git LFS
 
 Es necesario instalar Git LFS para manejar los grandes archivos binarios (ejecutables, modelos, etc.):
 
-    Página oficial de Git LFS
+    Página oficial de Git LFS: https://git-lfs.com/
 
 Sigue las instrucciones para tu sistema operativo.
 Paso 3: Agregar el Ejecutable del Entorno de Entrenamiento
 
 En lugar de usar el ejemplo SoccerTwos, utilizaremos el entorno Dungeon Escape. Para ello:
 
-    Descarga el entorno Dungeon Escape siguiendo las instrucciones en la documentación oficial.
-    Ejecuta Unity y genera un ejecutable siguiendo esta guía: Crear un nuevo entorno de aprendizaje.
+    Descarga el entorno Dungeon Escape siguiendo las instrucciones en la documentación oficial
+    Ejecuta Unity y genera un ejecutable siguiendo esta guía:[ Crear un nuevo entorno de aprendizaje](https://github.com/Unity-Technologies/ml-agents/blob/develop/docs/Learning-Environment-Create-New.md).
 
-Una vez que tengas el ejecutable listo, crea una carpeta dentro de ml-agents llamada training-envs-executables y coloca allí el archivo resultante. Por ejemplo:
-
-ml-agents/
-   ├─ ml-agents (código fuente del repo)
-   ├─ ml-agents-envs (código fuente del repo)
-   ├─ training-envs-executables/
-       └─ DungeonEscape.exe
+Una vez que tengas el ejecutable listo, crea una carpeta dentro de ml-agents llamada training-envs-executables y coloca allí el archivo resultante.
 
 (El nombre y extensión del ejecutable pueden variar según tu sistema operativo.)
+
 Paso 4: Entrenamiento del Agente
 
 Ya con el entorno listo y el conda activado, ejecutamos el siguiente comando para iniciar el proceso de entrenamiento (ejemplo con la configuración de SoccerTwos, que puedes adaptar a DungeonEscape):
