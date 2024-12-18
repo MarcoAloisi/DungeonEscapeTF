@@ -18,7 +18,7 @@ Primero, creamos un entorno virtual con Python 3.10.12 usando conda:
 conda create --name rl python=3.10.12
 conda activate rl
 
-Paso 1: Instalar ML-Agents
+## Paso 1: Instalar ML-Agents
 
 Clonamos el repositorio oficial de ML-Agents:
 
@@ -37,14 +37,14 @@ En algunos casos, la instalación puede fallar (por ejemplo, al compilar ONNX). 
 conda install grpcio
 
 Si los problemas persisten, puedes revisar este issue en el repositorio oficial de ML-Agents para más información.
-Paso 2: Instalar Git LFS
+## Paso 2: Instalar Git LFS
 
 Es necesario instalar Git LFS para manejar los grandes archivos binarios (ejecutables, modelos, etc.):
 
     Página oficial de Git LFS: https://git-lfs.com/
 
 Sigue las instrucciones para tu sistema operativo.
-Paso 3: Agregar el Ejecutable del Entorno de Entrenamiento
+## Paso 3: Agregar el Ejecutable del Entorno de Entrenamiento
 
 En lugar de usar el ejemplo SoccerTwos, utilizaremos el entorno Dungeon Escape. Para ello:
 
@@ -55,7 +55,7 @@ Una vez que tengas el ejecutable listo, crea una carpeta dentro de ml-agents lla
 
 (El nombre y extensión del ejecutable pueden variar según tu sistema operativo.)
 
-Paso 4: Entrenamiento del Agente
+## Paso 4: Entrenamiento del Agente
 
 Ya con el entorno listo y el conda activado, ejecutamos el siguiente comando para iniciar el proceso de entrenamiento (ejemplo con la configuración de SoccerTwos, que puedes adaptar a DungeonEscape):
 
@@ -66,7 +66,7 @@ Nota:
     En este ejemplo se muestra el archivo SoccerTwos.yaml y el ejecutable SoccerTwos.exe, pero deberás adaptar el comando al entorno Dungeon Escape y a su correspondiente archivo de configuración.
     El entrenamiento puede tardar entre 7-8 horas, dependiendo de la complejidad del entorno y los recursos disponibles.
 
-Paso 5: Ejecutar el Entorno Localmente con el Modelo Entrenado
+##  Paso 5: Ejecutar el Entorno Localmente con el Modelo Entrenado
 
 Una vez finalizado el entrenamiento:
 
