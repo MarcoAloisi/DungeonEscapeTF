@@ -59,8 +59,7 @@ Sigue las instrucciones para tu sistema operativo.
 
 En lugar de usar el ejemplo SoccerTwos, utilizaremos el entorno Dungeon Escape. Para ello:
 
-1. Descarga el entorno Dungeon Escape siguiendo las instrucciones en la documentación oficial
-2. Ejecuta Unity y genera un ejecutable siguiendo esta guía: [Crear un nuevo entorno de aprendizaje](https://github.com/Unity-Technologies/ml-agents/blob/develop/docs/Learning-Environment-Create-New.md).
+1. Descarga el entorno Dungeon Escape siguiendo las instrucciones en la documentación oficial y ejecuta Unity y genera un ejecutable siguiendo esta guía: [Crear un nuevo entorno de aprendizaje](https://github.com/Unity-Technologies/ml-agents/blob/develop/docs/Learning-Environment-Create-New.md).
 
 Una vez que tengas el ejecutable listo, crea una carpeta dentro de ml-agents llamada `training-envs-executables` y coloca allí el archivo resultante.
 
