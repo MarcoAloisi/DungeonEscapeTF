@@ -85,7 +85,7 @@ Una vez finalizado el entrenamiento:
 1. Abre nuevamente el proyecto en Unity
 2. Carga el modelo entrenado en cada agente
 3. Cambia el modo de los agentes a Inference Only
-4. Ejecuta la escena para observar el comportamiento de los agentes entrenados
+4. Ejecuta la escena pulsando play para observar el comportamiento de los agentes entrenados
 
 ![Ajustes del agente](unity2.png)
 
