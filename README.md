@@ -71,7 +71,7 @@ Una vez que tengas el ejecutable listo, crea una carpeta dentro de ml-agents lla
 Ya con el entorno listo y el conda activado, ejecutamos el siguiente comando para iniciar el proceso de entrenamiento (ejemplo con la configuración de SoccerTwos, que puedes adaptar a DungeonEscape):
 
 ```bash
-mlagents-learn ./config/poca/SoccerTwos.yaml --env=./training-envs-executables/SoccerTwos.exe --run-id="SoccerTwos" --no-graphics
+mlagents-learn ./config/poca/DungeonEscape.yaml --env=./training-envs-executables/DungeonEscape/UnityEnvironment.exe --run-id="DungeonEscape" --no-graphics
 ```
 
 **Nota:**
